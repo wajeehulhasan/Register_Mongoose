@@ -1,0 +1,22 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "Using Mongoose send data by registration to db and get all users data from db then show on browser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "maheen": "nodemon index.js"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "maheen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
+  }
+}
