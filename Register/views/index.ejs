@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #06d6a0;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        #login {
+            text-align: center;
+            padding-bottom: 10%;
+        }
+
+        #button {
+            text-align: center;
+            padding-bottom: 10%;
+        }
+
+        #downward {
+            padding-bottom: 10%;
+        }
+
+        #downward1 {
+            padding-bottom: 10%;
+        }
+
+        .padd {
+            padding: 8px;
+        }
+
+        .bg {
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        main {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+            width: 400px;
+        }
+
+
+        label {
+            margin-right: 10px;
+            color: white;
+        }
+
+        .padd {
+            padding: 8px;
+        }
+
+        .bg {
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            background-color: whitesmoke;
+            color: #06d6a0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        input.padd {
+            padding: 8px;
+            background-color: white;
+            color: #333;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+        input.padd::placeholder {
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div id="login">
+            <h2><i><b>Registration</b></i></h2>
+        </div>
+        <section>
+            <form method="POST" action="/">
+                <div id="downward">
+                    <label><b><i>Name:</i></b></label>
+                    <input placeholder="name" class="padd" type="name" name="name" required>
+                </div>
+                <div id="downward1">
+                    <label><b><i>Email:</i></b></label>
+                    <input placeholder="email" class="padd" type="email" name="email" required>
+                </div>
+                <div id="downward">
+                    <label><b><i>Phone</i></b></label>
+                    <input placeholder="phone" class="padd" type="phone" name="phone" required>
+                </div>
+                <div id="downward1">
+                    <label><b><i>Password:</i></b></label>
+                    <input placeholder="password" class="padd" type="password" name="password" required>
+                </div>
+                <div id="button">
+                    <button class="bg" type="submit">Login</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
